@@ -1,0 +1,5 @@
+time = input().split(":")
+h = int(time[0])
+m = int(time[1])
+a = int((0.5 * (60 * h + m)) - (6 * m))
+print(str(min(abs(a), 360 - abs(a))))

@@ -1,0 +1,1 @@
+print(sum([int(x)if int(x)%2==0else 0for x in input()]))
